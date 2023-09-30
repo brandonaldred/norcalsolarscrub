@@ -8,7 +8,7 @@
 .benefits-section p {
     margin: 2.5rem 0;
     width: 80%;
-    margin: auto;
+    margin: 2rem auto;
 }
 
 .benefits-container {
@@ -24,5 +24,6 @@
 @media screen and (max-width: 768px) {
     .benefits-container {
         grid-template-columns:repeat(2, 1fr);
+        gap: 40px;
     }
 }

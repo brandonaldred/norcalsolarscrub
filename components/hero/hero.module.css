@@ -27,7 +27,7 @@
     width: 100%;
     border-radius: var(--lg-radius);
     filter: var(--shadow);
-    outline: 10px solid var(--white);
+    border: 10px solid var(--white);
 }
 
 .hero-img::after {
@@ -47,6 +47,7 @@
 @media screen and (max-width: 767px) {
     .hero {
         flex-wrap: wrap-reverse;
+        text-align: center;
     }
 
     .hero-copy {
@@ -56,5 +57,13 @@
     .hero-img {
         width: 100%;
         margin-bottom: 56px;
+    }
+
+    .hero-img::after {
+        display: none;
+    }
+
+    .button-center {
+        margin: auto;
     }
 }
