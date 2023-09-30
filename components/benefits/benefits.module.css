@@ -1,0 +1,28 @@
+.benefits-section {
+    text-align: center;
+    background-color: var(--white);
+    margin: 56px 0;
+    padding: 56px 0;
+}
+
+.benefits-section p {
+    margin: 2.5rem 0;
+    width: 80%;
+    margin: auto;
+}
+
+.benefits-container {
+    display: grid;
+    grid-template-columns:repeat(4, 1fr);
+    margin: 32px;
+}
+
+.benefits-container img {
+    width: 100px;
+}
+
+@media screen and (max-width: 768px) {
+    .benefits-container {
+        grid-template-columns:repeat(2, 1fr);
+    }
+}

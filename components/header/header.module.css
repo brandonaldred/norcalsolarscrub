@@ -1,0 +1,14 @@
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-container h1 {
+    width: 50%;
+}
+
+.main-logo {
+    display: block;
+    height: 65px;
+}
