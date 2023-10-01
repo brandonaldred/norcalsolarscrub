@@ -49,7 +49,7 @@ h5 {
 }
 
 header {
-  background-color: var(--primary);
+  background-color: var(--secondary);
   color: var(--white);
   height: 100px;
 }

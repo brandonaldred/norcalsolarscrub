@@ -8,9 +8,23 @@
     width: 50%;
 }
 
+.header-container > div > img:hover {
+    cursor: pointer;
+}
+
 .main-logo {
     display: block;
     height: 65px;
+}
+
+.header-container p {
+    margin-right: 40px;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 @media screen and (max-width: 768px) {

@@ -1,5 +1,5 @@
 import react from 'react';
-import styles from './services.module.css'
+import styles from './solution.module.css'
 import commercial from '../../assets/images/commercial.jpg';
 
 export default function Services(props) {

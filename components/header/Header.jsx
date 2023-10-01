@@ -9,7 +9,7 @@ export default function Header() {
         <header>
             <div className={`container ${styles['header-container']}`}>
                 <h1><Link href="/"><img className={styles['main-logo']} src={logo.src} alt="NorCal Solar Scrub"/></Link></h1>
-                <div>
+                <div className={styles.menu}>
                     <p>(555) 555 - 5555</p>
                     <img src={menuIcon.src} alt="" />
                 </div>

@@ -3,7 +3,7 @@ import styles from './page.module.css'
 import Header from '../components/header/Header'
 import Hero from '../components/hero/Hero'
 import Benefits from '../components/benefits/Benefits'
-import Services from '../components/dual/Services'
+import Solution from '../components/solution/Solution'
 
 export default function Home() {
   return (
@@ -11,7 +11,7 @@ export default function Home() {
       <Header />
       <Hero />
       <Benefits />
-      <Services alignment="left" />
+      <Solution alignment="left" />
     </>
   )
 }
